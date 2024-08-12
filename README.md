@@ -50,6 +50,8 @@
 
 24. <a href="answers/general.md#tdz">Temporal Dead Zone (TDZ)</a><br>
 
+25. <a href="answers/general.md#decorators">Декораторы</a><br>
+
 ## Продвинутые вопросы
 
 1. <a href="answers/advanced.md#GC">Сборщик мусора (Garbage Collector) в V8</a><br>
