@@ -42,7 +42,7 @@
 
 20. <a href="answers/general.md#boxing_unboxing">Что такое объектная обертка (Wrapper Objects)?</a><br>
 
-21. <a href="answers/general.md#NaN">Что такое NaN?</a><br>
+21. <a href="answers/general.md#NaN">Что такое `NaN`?</a><br>
 
 22. <a href="answers/general.md#in_object">Как определить наличие свойства в объекте?</a><br>
 
