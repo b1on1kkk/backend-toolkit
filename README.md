@@ -34,26 +34,38 @@
 
 16. <a href="answers/general.md#promise_allSetteled">`Promise.allSetteled` в JavaScript</a><br>
 
-17. <a href="answers/general.md#higher_order_functions">Функции высшего порядка (Higher Order Functions) в JavaScript</a><br>
+17. <a href="answers/general.md#first_class_objects">Почему функции в JavaScript называют объектами первого класса?</a><br>
 
-18. <a href="answers/general.md#first_class_objects">Почему функции в JavaScript называют объектами первого класса?</a><br>
+18. <a href="answers/general.md#callback_function">Что такое функция обратного вызова (Callback Function)?</a><br>
 
-19. <a href="answers/general.md#callback_function">Что такое функция обратного вызова (Callback Function)?</a><br>
+19. <a href="answers/general.md#boxing_unboxing">Что такое объектная обертка (Wrapper Objects)?</a><br>
 
-20. <a href="answers/general.md#boxing_unboxing">Что такое объектная обертка (Wrapper Objects)?</a><br>
+20. <a href="answers/general.md#NaN">Что такое `NaN`?</a><br>
 
-21. <a href="answers/general.md#NaN">Что такое `NaN`?</a><br>
+21. <a href="answers/general.md#in_object">Как определить наличие свойства в объекте?</a><br>
 
-22. <a href="answers/general.md#in_object">Как определить наличие свойства в объекте?</a><br>
+22. <a href="answers/general.md#coping">Поверхностное и глубокое копирование</a><br>
 
-23. <a href="answers/general.md#coping">Поверхностное и глубокое копирование</a><br>
+23. <a href="answers/general.md#tdz">Temporal Dead Zone (TDZ)</a><br>
 
-24. <a href="answers/general.md#tdz">Temporal Dead Zone (TDZ)</a><br>
-
-25. <a href="answers/general.md#decorators">Декораторы</a><br>
+24. <a href="answers/general.md#decorators">Декораторы</a><br>
 
 ## Продвинутые вопросы
 
 1. <a href="answers/advanced.md#GC">Сборщик мусора (Garbage Collector) в V8</a><br>
 
 2. <a href="answers/advanced.md#event_loop_node">Event loop в Node.js</a><br>
+
+## Умные слова из функционального программирования
+
+Описывать весь жаргон функционального программировая я не буду. Глубже можно почитать [тут](https://habr.com/ru/articles/310172/), а я, в свою очередь, хочу осветить именно те, которые спрашивали на собесах.
+
+1. <a href="answers/func_programming.md#arity">Arity (арность)</a><br>
+
+2. <a href="answers/func_programming.md#higher_order_functions">Функции высшего порядка (Higher Order Functions)</a><br>
+
+3. <a href="answers/func_programming.md#currying">Currying (каррирование)</a><br>
+
+4. <a href="answers/func_programming.md#pure">Pure (чистая)</a><br>
+
+5. <a href="answers/func_programming.md#side_effects">Side effects (побочные эффекты)</a><br>
