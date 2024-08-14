@@ -50,6 +50,14 @@
 
 24. <a href="answers/general.md#decorators">Декораторы</a><br>
 
+25. <a href="answers/general.md#api">Что такое API?</a><br>
+
+26. <a href="answers/general.md#restful_api">Что такое RESTful API?</a><br>
+
+27. <a href="answers/general.md#main_rest_principles">Основные принципы REST?</a><br>
+
+28. <a href="answers/general.md#rest_vs_graphql">REST vs GraphQL</a><br>
+
 ## Продвинутые вопросы
 
 1. <a href="answers/advanced.md#GC">Сборщик мусора (Garbage Collector) в V8</a><br>
