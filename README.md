@@ -58,6 +58,10 @@
 
 28. <a href="answers/general.md#rest_vs_graphql">REST vs GraphQL</a><br>
 
+29. <a href="answers/general.md#oop">ООП</a><br>
+
+30. <a href="answers/general.md#solid">SOLID</a><br>
+
 ## Продвинутые вопросы
 
 1. <a href="answers/advanced.md#GC">Сборщик мусора (Garbage Collector) в V8</a><br>
