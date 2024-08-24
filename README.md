@@ -68,6 +68,12 @@
 
 2. <a href="answers/advanced.md#event_loop_node">Event loop в Node.js</a><br>
 
+3. <a href="answers/advanced.md#ci_cd_pipeline">CI/CD Pipeline</a><br>
+
+4. <a href="answers/advanced.md#unix-timestamp">Что такое Unix-timestamp, какие проблемы решает, плюсы и минусы?</a><br>
+
+5. <a href="answers/advanced.md#process_vs_thread">Чем отличается Process от Thread?</a><br>
+
 ## Умные слова из функционального программирования
 
 Описывать весь жаргон функционального программировая я не буду. Глубже можно почитать [тут](https://habr.com/ru/articles/310172/), а я, в свою очередь, хочу осветить именно те, которые спрашивали на собесах.
