@@ -74,7 +74,7 @@
 
 5. <a href="answers/advanced.md#process_vs_thread">Чем отличается Process от Thread?</a><br>
 
-6. <a href="answers/advanced.md#http1_vs_http2_vs_http3">Разница между http версий 1, 2, 3?</a><br>
+6. <a href="answers/advanced.md#http1_vs_http2_vs_http3">Какая разница между HTTP версиями 1, 2, 3?</a><br>
 
 ## Умные слова из функционального программирования
 
