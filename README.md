@@ -62,6 +62,32 @@
 
 30. <a href="answers/general.md#solid">SOLID</a><br>
 
+31. <a href="answers/general.md#di&ioc">Dependency injection (DI) и Inversion of Control (IoC)</a><br>
+
+## TypeScript
+
+1. <a href="answers/typescript.md#utility_types">Что такое Utility Types?</a><br>
+
+2. <a href="answers/typescript.md#type_vs_interfaces">Чем отличается type от interface?</a><br>
+
+3. <a href="answers/typescript.md#never_and_unknown">Зачем нужен never, unknown?</a><br>
+
+4. <a href="answers/typescript.md#generics">Дженерики в TypeScript</a><br>
+
+## Nest.js
+
+1. <a href="answers/nest.md#life_cycle_nest">Жизненный цикл приложения в Nest.js (Lifecycle events)</a><br>
+
+## SQL
+
+1. <a href="answers/sql.md#triggers">Что такое триггеры?</a><br>
+
+2. <a href="answers/sql.md#stored_procedure">Что такое хранимые процедуры?</a><br>
+
+3. <a href="answers/sql.md#migrations">Что такое миграции базы данных?</a><br>
+
+4. <a href="answers/sql.md#views">Что такое представления (views) в базы данных?</a><br>
+
 ## Продвинутые вопросы
 
 1. <a href="answers/advanced.md#GC">Сборщик мусора (Garbage Collector) в V8</a><br>
@@ -75,8 +101,6 @@
 5. <a href="answers/advanced.md#process_vs_thread">Чем отличается Process от Thread?</a><br>
 
 6. <a href="answers/advanced.md#http1_vs_http2_vs_http3">Какая разница между HTTP версиями 1, 2, 3?</a><br>
-
-7. <a href="answers/advanced.md#di">Dependency injection (DI)</a><br>
 
 ## Умные слова из функционального программирования
 
