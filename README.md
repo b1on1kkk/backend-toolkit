@@ -90,6 +90,8 @@
 
 4. <a href="answers/sql.md#views">Что такое представления (views) в базы данных?</a><br>
 
+5. <a href="answers/sql.md#sharding_&_replication">Шардирование и Репликация</a><br>
+
 ## Продвинутые вопросы
 
 1. <a href="answers/advanced.md#GC">Сборщик мусора (Garbage Collector) в V8</a><br>
