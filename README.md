@@ -76,7 +76,9 @@
 
 ## Nest.js
 
-1. <a href="answers/nest.md#life_cycle_nest">Жизненный цикл приложения в Nest.js (Lifecycle events)</a><br>
+1. <a href="answers/nest.md#application_lifecycle">Жизненный цикл приложения в Nest.js (Lifecycle events)</a><br>
+
+2. <a href="answers/nest.md#request_lifecycle">Request lifecycle в Nest.js</a><br>
 
 ## SQL
 
