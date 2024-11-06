@@ -92,6 +92,10 @@
 
 5. <a href="answers/sql.md#sharding_&_replication">Шардирование и Репликация</a><br>
 
+6. <a href="answers/sql.md#transactions">Транзакции</a><br>
+
+7. <a href="answers/sql.md#transaction_isolation">Уровни изоляции транзакций</a><br>
+
 ## Продвинутые вопросы
 
 1. <a href="answers/advanced.md#GC">Сборщик мусора (Garbage Collector) в V8</a><br>
