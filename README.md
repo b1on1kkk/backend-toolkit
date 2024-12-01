@@ -112,7 +112,9 @@
 
 7. <a href="answers/advanced.md#http1_vs_http2_vs_http3">Какая разница между HTTP версиями 1, 2, 3?</a><br>
 
-8. <a href="answers/advanced.md#grpc">gRPC</a><br>
+8. <a href="answesrs/advanced.md#jwt">Как работает JWT?</a><br>
+
+9. <a href="answers/advanced.md#grpc">gRPC</a><br>
 
 ## Redis
 
