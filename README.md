@@ -64,6 +64,8 @@
 
 31. <a href="answers/general.md#di&ioc">Dependency injection (DI) и Inversion of Control (IoC)</a><br>
 
+32. <a href="answers/general.md#modularity">Модульность в Node.js</a><br>
+
 ## TypeScript
 
 1. <a href="answers/typescript.md#utility_types">Что такое Utility Types?</a><br>
@@ -95,6 +97,8 @@
 6. <a href="answers/sql.md#transactions">Транзакции</a><br>
 
 7. <a href="answers/sql.md#transaction_isolation">Уровни изоляции транзакций</a><br>
+
+8. <a href="answers/sql.md#having_vs_where">Having vs Where</a><br>
 
 ## Продвинутые вопросы
 
@@ -139,3 +143,9 @@
 4. <a href="answers/func_programming.md#pure">Pure (чистая)</a><br>
 
 5. <a href="answers/func_programming.md#side_effects">Side effects (побочные эффекты)</a><br>
+
+## Архитектуры
+
+1. <a href="answers/architectures.md#repository_pattern">Паттерн репозиторий</a><br>
+
+2. <a href="answers/architectures.md#active_record_pattern">Active Record паттерн</a><br>
