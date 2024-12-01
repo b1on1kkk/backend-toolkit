@@ -228,7 +228,7 @@ gRPC юзается в брокерах сообщений, что делает 
 
 `JWT (Json Web Token)` - ключ аутентификации пользователя. Используется для запросов к защищенным методам API. JWT состоит из 3 частей, разделенных точкой:
 
-![JWT_UNDER_THE_HOOD](../pictures/3dadea593579174c6a05b4395df33e2a.png)
+![JWT_UNDER_THE_HOOD](../pictures/jwt.png)
 
 - **header** — содержит информацию об алгоритме шифрования и типе токена (JWT)
 
@@ -254,7 +254,7 @@ gRPC юзается в брокерах сообщений, что делает 
 
 Валидация состоит из нескольких этапов:
 
-![JWT_VALIDATION_UNDER_THE_HOOD](../pictures/3ce8bc2ac9e8679fade64393cef5ce39.png)
+![JWT_VALIDATION_UNDER_THE_HOOD](../pictures/jwt-validating-stages.png)
 
 1. Извлекаем JWT из заголовка запроса
 
@@ -301,3 +301,9 @@ gRPC юзается в брокерах сообщений, что делает 
 При каждой проверке refresh токена сверяем номер версии с номером из БД
 
 Если номер версии не совпал, возвращаем #401
+
+## <a name="nodejs_architecture"></a>Архитектура Node.js
+
+![NODEJS_ARCHITECTURE](../pictures/node.js_architecture.png)
+
+Средний слой архитектуры ноды написан на JS + C/C++, самый нижний исключительно на С/С++

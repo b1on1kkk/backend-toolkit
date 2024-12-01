@@ -116,6 +116,8 @@
 
 9. <a href="answers/advanced.md#grpc">gRPC</a><br>
 
+10. <a href="answers/advanced.md#nodejs_architecture">Архитектура Node.js</a><br>
+
 ## Redis
 
 1. <a href="answers/redis.md#basics">Основы</a><br>
