@@ -82,6 +82,12 @@
 
 2. <a href="answers/nest.md#request_lifecycle">Request lifecycle в Nest.js</a><br>
 
+3. <a href="answers/nest.md#injection_scopes">Области внедрения / Injection scopes</a><br>
+
+4. <a href="answers/nest.md#circular_dependency">Циклическая зависимость / Circular dependency</a><br>
+
+5. <a href="answers/nest.md#lazy_module_loading">Ленивая загрузка модулей</a><br>
+
 ## SQL
 
 1. <a href="answers/sql.md#triggers">Что такое триггеры?</a><br>
@@ -127,6 +133,10 @@
 ## Redis
 
 1. <a href="answers/redis.md#basics">Основы</a><br>
+
+## GIT
+
+1. <a href="answers/git.md#rebase_vs_merge">Rebase vs Merge</a><br>
 
 ## Разбор кода с собесов
 
