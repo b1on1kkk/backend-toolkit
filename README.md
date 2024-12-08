@@ -1,6 +1,6 @@
 ### Расширяем кругозор: Node.js и JavaScript. Вопросы и ответы
 
-## Основы
+## JavaScript
 
 1. <a href="answers/general.md#var_vs_let_vs_const">var vs let vs const</a><br>
 
