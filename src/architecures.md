@@ -7,3 +7,9 @@
 3. <a href="../answers/architectures.md#monolith">Монолит</a><br>
 
 4. <a href="../answers/architectures.md#microservices">Микросервисы</a><br>
+
+5. <a href="../answers/architectures.md#oop">ООП</a><br>
+
+6. <a href="../answers/architectures.md#solid">SOLID</a><br>
+
+7. <a href="../answers/architectures.md#decorators">Декораторы</a><br>

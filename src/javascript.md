@@ -46,20 +46,12 @@
 
 23. <a href="../answers/general.md#tdz">Temporal Dead Zone (TDZ)</a><br>
 
-24. <a href="../answers/general.md#decorators">Декораторы</a><br>
+24. <a href="../answers/general.md#api">Что такое API?</a><br>
 
-25. <a href="../answers/general.md#api">Что такое API?</a><br>
+25. <a href="../answers/general.md#restful_api">Что такое RESTful API?</a><br>
 
-26. <a href="../answers/general.md#restful_api">Что такое RESTful API?</a><br>
+26. <a href="../answers/general.md#main_rest_principles">Основные принципы REST?</a><br>
 
-27. <a href="../answers/general.md#main_rest_principles">Основные принципы REST?</a><br>
+27. <a href="../answers/general.md#rest_vs_graphql">REST vs GraphQL</a><br>
 
-28. <a href="../answers/general.md#rest_vs_graphql">REST vs GraphQL</a><br>
-
-29. <a href="../answers/general.md#oop">ООП</a><br>
-
-30. <a href="../answers/general.md#solid">SOLID</a><br>
-
-31. <a href="../answers/general.md#di&ioc">Dependency injection (DI) и Inversion of Control (IoC)</a><br>
-
-32. <a href="../answers/general.md#modularity">Модульность в Node.js</a><br>
+28. <a href="../answers/general.md#modularity">Модульность в Node.js</a><br>

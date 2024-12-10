@@ -21,3 +21,5 @@
 10. <a href="../answers/advanced.md#nodejs_architecture">Архитектура Node.js</a><br>
 
 11. <a href="../answers/advanced.md#streams">Потоки (streams) в Node.js</a><br>
+
+12. <a href="../answers/advanced.md#di&ioc">Dependency injection (DI) и Inversion of Control (IoC)</a><br>

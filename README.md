@@ -18,4 +18,4 @@
 
 9. <a href="./src/func_programming.md">Умные слова из функционального программирования</a><br>
 
-10. <a href="./src/architecure.md">Архитектуры</a><br>
+10. <a href="./src/architecures.md">Архитектуры</a><br>
