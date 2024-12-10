@@ -54,4 +54,4 @@
 
 27. <a href="../answers/general.md#rest_vs_graphql">REST vs GraphQL</a><br>
 
-28. <a href="../answers/general.md#modularity">Модульность в Node.js</a><br>
+28. <a href="../answers/general.md#modularity">Модульность</a><br>
