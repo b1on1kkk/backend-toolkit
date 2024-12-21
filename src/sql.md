@@ -25,3 +25,7 @@
 12. <a href="../answers/sql.md#transaction_isolation">Уровни изоляции транзакций</a><br>
 
 13. <a href="../answers/sql.md#acid">ACID</a><br>
+
+14. <a href="../answers/sql.md#pgbouncer_in_prisma">Prisma и PgBouncer</a><br>
+
+15. <a href="../answers/sql.md#n+1">Проблема N+1 при работе с ORM</a><br>
