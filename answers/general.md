@@ -201,3 +201,65 @@ RESTful API — это API, разработанный согласно прин
 | **Динамическая загрузка**  | Ограничено               | Да                                 | Да (`import()`)     |
 | **Кэширование модулей**    | Да                       | Да                                 | Да                  |
 | **Распространенность**     | Популярен в Node.js      | Используется в специфичных случаях | Стандарт ECMAScript |
+
+## <a name="logical_or_assignment"></a>Присваивание логического ИЛИ (||=)
+
+Оператор присваивания логического ИЛИ `(x ||= y)` присваивает значение переменной x только в случае, если её текущее значение ложноподобно.
+
+```JavaScript
+let a = null;
+let b = 10;
+
+a ||= b; // a примет значение 10, потому что a === null (falsy)
+console.log(a); // 10
+
+let c = 5;
+c ||= 15; // c останется 5, потому что c уже истинное значение (truthy)
+console.log(c); // 5
+```
+
+## <a name="logical_and_assignment"></a>Присваивание логического И (&&=)
+
+Оператор присваивания логического И `(x &&= y)` присваивает значение переменной x только в случае, если её текущее значение истинноподобно.
+
+```JavaScript
+let a = 10;
+let b = 5;
+
+a &&= b; // a станет равным b (5), так как a === 10 (truthy)
+console.log(a); // 5
+
+let c = 0; // 0 — falsy
+c &&= b; // Присваивание не произойдёт, так как c — falsy
+console.log(c); // 0
+```
+
+## <a name="group_by"></a>Object.groupBy()
+
+Статический метод `.groupBy()` группирует элементы итерируемого объекта, опираясь на переданную колбэк-функцию. Она должна возвращать ключ группы, в которую нужно положить текущий элемент. `Object.groupBy()` сгруппирует элементы в новый объект.
+
+```JavaScript
+const colors = [
+  { value: '50% 0.2 12', name: 'oklch' },
+  { value: '198, 35, 109', name: 'rgb' },
+  { value: '55% 0.2 0', name: 'oklch' }
+]
+
+const groupedColors = Object.groupBy(colors, (color, index) =>
+  color.name === 'oklch' ? 'easyToUnderstand' : 'hardToUnderstand'
+)
+
+console.log(groupedColors)
+
+/*
+{
+  easyToUnderstand: [
+    { value: '50% 0.2 12', name: 'oklch' },
+    { value: '55% 0.2 0', name: 'oklch' }
+  ],
+  hardToUnderstand: [
+    { value: '198, 35, 109', name: 'rgb' }
+  ]
+}
+*/
+```

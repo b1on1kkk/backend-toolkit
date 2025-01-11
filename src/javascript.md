@@ -55,3 +55,9 @@
 27. <a href="../answers/general.md#rest_vs_graphql">REST vs GraphQL</a><br>
 
 28. <a href="../answers/general.md#modularity">Модульность</a><br>
+
+29. <a href="../answers/general.md#logical_or_assignment">Присваивание логического ИЛИ (||=)</a><br>
+
+30. <a href="../answers/general.md#logical_and_assignment">Присваивание логического И (&&=)</a><br>
+
+31. <a href="../answers/general.md#group_by">Object.groupBy()</a><br>
