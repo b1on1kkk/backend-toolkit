@@ -20,4 +20,6 @@
 
 10. <a href="./src/func_programming.md">Умные слова из функционального программирования</a><br>
 
-11. <a href="./src/architecures.md">Архитектуры</a><br>
+11. <a href="./src/web.md">Сеть</a><br>
+
+12. <a href="./src/architecures.md">Паттерны проектирования</a><br>

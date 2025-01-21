@@ -1,4 +1,4 @@
-## Архитектуры
+## Паттерны проектирования
 
 1. <a href="../answers/architectures.md#repository_pattern">Паттерн репозиторий</a><br>
 
