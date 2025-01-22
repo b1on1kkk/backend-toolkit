@@ -16,10 +16,10 @@
 
 8. <a href="./src/git.md">Git</a><br>
 
-9. <a href="./src/interview_code.md">Разбор кода с собесов</a><br>
+9. <a href="./src/func_programming.md">Умные слова из функционального программирования</a><br>
 
-10. <a href="./src/func_programming.md">Умные слова из функционального программирования</a><br>
+10. <a href="./src/web.md">Сеть</a><br>
 
-11. <a href="./src/web.md">Сеть</a><br>
+11. <a href="./src/architecures.md">Паттерны проектирования</a><br>
 
-12. <a href="./src/architecures.md">Паттерны проектирования</a><br>
+12. <a href="./src/interview_code.md">Разбор кода с собесов</a><br>
