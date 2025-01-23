@@ -1,4 +1,4 @@
-### Расширяем кругозор: Node.js и JavaScript. Вопросы и ответы
+### Backend toolkit: Node.js, JavaScript/Typescript, Golang и много чего еще!
 
 1. <a href="./src/javascript.md">JavaScript</a><br>
 
