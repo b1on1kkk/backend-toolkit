@@ -4,7 +4,7 @@
 
 2. <a href="./src/typescript.md">TypeScript</a><br>
 
-3. <a href="./src/go.md">Go</a><br>
+3. <a href="./src/go.md">Golang</a><br>
 
 4. <a href="./src/nest.md">Nest.js</a><br>
 
