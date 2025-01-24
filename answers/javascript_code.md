@@ -1,4 +1,4 @@
-## <a name="code"></a>Код с разбором
+## <a name="javascript_code"></a>Разбор задачек на JavaScript
 
 ### Что выведет этот код:
 
