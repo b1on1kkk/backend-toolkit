@@ -89,3 +89,66 @@ doSomething('Graham');
 wrapped('Graham');
 // Hello, Graham
 ```
+
+## <a name="cqrs"></a>CQRS
+
+CQRS – код, изменяющий состояние, отделяется от кода, просто читающего это состояние. Кроме того, оно может быть физическим и включать разные звенья (tiers), или уровни.
+
+В основе этого подхода лежит принцип `Command-query separation (CQS)`.
+
+Основная идея `CQS`:
+
+- **Queries**: Методы возвращают результат, не изменяя состояние объекта. Другими словами, у Query нет никаких побочных эффектов.
+
+- **Commands**: Методы изменяют состояние объекта, не возвращая значение.
+
+## <a name="event_sourcing"></a>Event Sourcing
+
+**Event Sourcing** — архитектурный шаблон, при котором все изменения, вносимые в состояние приложения, сохраняются в той последовательности, в которой они происходили.
+
+## <a name="event_driven"></a>Event Driven
+
+Основной принцип `event-driven` архитектуры — это разделение системы на независимые компоненты, которые общаются между собой через события. Каждый компонент обрабатывает только те события, которые ему нужны.
+
+## <a name="mvc"></a>
+
+MVC (сокращение от Model—View—Controller) — это архитектурный паттерн, который делит модули на три группы:
+
+- **модель (model),**
+- **представление (view),**
+- **контроллер (controller).**
+
+Модель (**model**) содержит данные приложения, за которыми приходит пользователь. Например, список своих заказов в интернет-магазине.
+
+Представление (**view**) показывает эти данные в понятном для пользователя виде. Например, на свёрстанной странице сайта или в приложении на телефоне.
+
+Контроллеры (**controller**) принимают пользовательские команды и преобразуют данные по этим командам. Например, если пользователь нажимает кнопку «Удалить заказ», то контроллер отмечает этот заказ в модели удалённым.
+
+Пример MVC архитектуры на Golang:
+
+```Golang
+// Model: структура пользователя
+type User struct {
+	ID   int    `json:"id"`
+	Name string `json:"name"`
+}
+
+// Controller: обработка запросов
+func getUsersHandler(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(users)
+}
+
+// View: обработка главной страницы
+func homeHandler(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "text/html")
+	fmt.Fprintf(w, "<h1>Welcome to MVC in Go</h1>")
+}
+
+func main() {
+	http.HandleFunc("/", homeHandler)
+	http.HandleFunc("/users", getUsersHandler)
+	fmt.Println("Server started on :8080")
+	http.ListenAndServe(":8080", nil)
+}
+```
