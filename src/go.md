@@ -14,4 +14,6 @@
 
 7. <a href="../answers/go.md#make_new">make и new</a><br>
 
-8. <a href="../answers/go.md#interface">Интерфейсы</a><br>
+8. <a href="../answers/go.md#interface">Интерфейсы (interface)</a><br>
+
+9. <a href="../answers/go.md#context">Контекст (Context)</a><br>
