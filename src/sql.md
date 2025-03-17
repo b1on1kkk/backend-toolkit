@@ -22,7 +22,7 @@
 
 11. <a href="../answers/sql.md#views">Представления (views) в базах данных?</a><br>
 
-12. <a href="../answers/sql.md#sharding_&_replication">Шардирование и Репликация</a><br>
+12. <a href="../answers/sql.md#sharding_&_replication">Репликация, Шардирование и Партиционирование</a><br>
 
 13. <a href="../answers/sql.md#transactions">Транзакции</a><br>
 
