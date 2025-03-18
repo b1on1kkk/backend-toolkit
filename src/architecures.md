@@ -8,16 +8,18 @@
 
 4. <a href="../answers/architectures.md#microservices">Микросервисы</a><br>
 
-5. <a href="../answers/architectures.md#oop">ООП</a><br>
+5. <a href="../answers/architectures.md#monolith_vs_microservices">Плюсы-минусы монолита и микросервисов</a><br>
 
-6. <a href="../answers/architectures.md#solid">SOLID</a><br>
+6. <a href="../answers/architectures.md#oop">ООП</a><br>
 
-7. <a href="../answers/architectures.md#decorators">Декораторы</a><br>
+7. <a href="../answers/architectures.md#solid">SOLID</a><br>
 
-8. <a href="../answers/architectures.md#cqrs">CQRS</a><br>
+8. <a href="../answers/architectures.md#decorators">Декораторы</a><br>
 
-9. <a href="../answers/architectures.md#event_sourcing">Event Sourcing</a><br>
+9. <a href="../answers/architectures.md#cqrs">CQRS</a><br>
 
-10. <a href="../answers/architectures.md#event_driven">Event Driven</a><br>
+10. <a href="../answers/architectures.md#event_sourcing">Event Sourcing</a><br>
 
-11. <a href="../answers/architectures.md#mvc">MVC</a><br>
+11. <a href="../answers/architectures.md#event_driven">Event Driven</a><br>
+
+12. <a href="../answers/architectures.md#mvc">MVC</a><br>

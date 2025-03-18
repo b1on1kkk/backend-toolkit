@@ -19,3 +19,7 @@
 9. <a href="../answers/go.md#interface">Интерфейсы (interface)</a><br>
 
 10. <a href="../answers/go.md#context">Контекст (Context)</a><br>
+
+11. <a href="../answers/go.md#iota">iota</a><br>
+
+12. <a href="../answers/go.md#defer">defer</a><br>
