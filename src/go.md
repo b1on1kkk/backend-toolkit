@@ -23,3 +23,5 @@
 11. <a href="../answers/go.md#iota">iota</a><br>
 
 12. <a href="../answers/go.md#defer">defer</a><br>
+
+13. <a href="../answers/go.md#con_vs_parall_multi">Конкурентное, параллельное, многопоточное и асинхронное исполнение</a><br>
