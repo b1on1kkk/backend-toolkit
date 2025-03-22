@@ -10,7 +10,7 @@
 
 5. <a href="../answers/go.md#maps_new">Мапы (Actual)</a><br>
 
-6. <a href="../answers/go.md#parallelism">Параллелизм</a><br>
+6. <a href="../answers/go.md#concurrency">Конкурентность</a><br>
 
 7. <a href="../answers/go.md#scheduler">Планировщик в Go</a><br>
 
