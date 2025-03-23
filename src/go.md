@@ -6,9 +6,9 @@
 
 3. <a href="../answers/go.md#slice">Слайсы</a><br>
 
-4. <a href="../answers/go.md#maps">Мапы (Deprecate since 1.24)</a><br>
+4. <a href="../answers/go.md#maps">Map (Not actual since 1.24)</a><br>
 
-5. <a href="../answers/go.md#maps_new">Мапы (Actual)</a><br>
+5. <a href="../answers/go.md#maps_new">Map (Actual)</a><br>
 
 6. <a href="../answers/go.md#concurrency">Конкурентность</a><br>
 
