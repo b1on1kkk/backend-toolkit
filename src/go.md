@@ -26,4 +26,6 @@
 
 13. <a href="../answers/go.md#byte_vs_rune">byte vs rune</a><br>
 
-14. <a href="../answers/go.md#con_vs_parall_multi">Конкурентное, параллельное, многопоточное и асинхронное исполнение</a><br>
+14. <a href="../answers/go.md#concurrency_patterns">Паттерны многопоточности</a><br>
+
+15. <a href="../answers/go.md#con_vs_parall_multi">Конкурентное, параллельное, многопоточное и асинхронное исполнение</a><br>
