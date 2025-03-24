@@ -1,25 +1,29 @@
 ## Паттерны проектирования
 
-1. <a href="../answers/architectures.md#repository_pattern">Паттерн репозиторий</a><br>
+1. <a href="../answers/architectures.md#ceational_pattern">Порождающие паттерны</a><br>
 
-2. <a href="../answers/architectures.md#active_record_pattern">Active Record паттерн</a><br>
+2. <a href="../answers/architectures.md#repository_pattern">Паттерн репозиторий</a><br>
 
-3. <a href="../answers/architectures.md#monolith">Монолит</a><br>
+3. <a href="../answers/architectures.md#active_record_pattern">Active Record паттерн</a><br>
 
-4. <a href="../answers/architectures.md#microservices">Микросервисы</a><br>
+4. <a href="../answers/architectures.md#monolith">Монолит</a><br>
 
-5. <a href="../answers/architectures.md#monolith_vs_microservices">Плюсы-минусы монолита и микросервисов</a><br>
+5. <a href="../answers/architectures.md#microservices">Микросервисы</a><br>
 
-6. <a href="../answers/architectures.md#oop">ООП</a><br>
+6. <a href="../answers/architectures.md#monolith_vs_microservices">Плюсы-минусы монолита и микросервисов</a><br>
 
-7. <a href="../answers/architectures.md#solid">SOLID</a><br>
+7. <a href="../answers/architectures.md#oop">ООП</a><br>
 
-8. <a href="../answers/architectures.md#decorators">Декораторы</a><br>
+8. <a href="../answers/architectures.md#solid">SOLID</a><br>
 
-9. <a href="../answers/architectures.md#cqrs">CQRS</a><br>
+9. <a href="../answers/architectures.md#decorators">Декораторы</a><br>
 
-10. <a href="../answers/architectures.md#event_sourcing">Event Sourcing</a><br>
+10. <a href="../answers/architectures.md#cqrs">CQRS</a><br>
 
-11. <a href="../answers/architectures.md#event_driven">Event Driven</a><br>
+11. <a href="../answers/architectures.md#event_sourcing">Event Sourcing</a><br>
 
-12. <a href="../answers/architectures.md#mvc">MVC</a><br>
+12. <a href="../answers/architectures.md#event_driven">Event Driven</a><br>
+
+13. <a href="../answers/architectures.md#mvc">MVC</a><br>
+
+14. <a href="../answers/architectures.md#di&ioc">Dependency injection (DI) и Inversion of Control (IoC)</a><br>

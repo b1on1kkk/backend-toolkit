@@ -1,3 +1,87 @@
+## <a name="ceational_pattern"></a>Порождающие паттерны
+
+### Фабричный метод (Factory Method)
+
+**Фабричный метод (Factory Method)** - Определяет интерфейс для создания объектов, позволяя подклассам решать, какой класс инстанцировать.
+
+```Golang
+func TransportFactory(transportType string) Transport {
+	switch transportType {
+	case "truck":
+		return &Truck{}
+	case "ship":
+		return &Ship{}
+	default:
+		return nil
+	}
+}
+```
+
+### Абстрактная фабрика (Abstract Factory)
+
+**Абстрактная фабрика (Abstract Factory)** - предоставляет интерфейс для создания групп объектов.
+
+```Golang
+type FurnitureFactory interface {
+	CreateChair() Chair
+	CreateTable() Table
+}
+```
+
+### Одиночка (Singleton)
+
+**Одиночка (Singleton)** - класс имеет только один экземпляр и предоставляет глобальную точку доступа к нему.
+
+### Прототип (Prototype)
+
+**Прототип (Prototype)** — позволяет создавать объекты на основе уже ранее созданных объектов-прототипов.
+
+### Строитель (Builder)
+
+**Строитель (Builder)** — инкапсулирует создание объекта и позволяет разделить его на различные этапы.
+
+```Golang
+// Person - сложный объект, который мы строим
+type Person struct {
+    Name    string
+    Age     int
+    Address string
+}
+
+// PersonBuilder - конкретный строитель
+type PersonBuilder struct {
+    person Person
+}
+
+// NewPersonBuilder - конструктор строителя
+func NewPersonBuilder() *PersonBuilder {
+    return &PersonBuilder{}
+}
+
+// SetName - устанавливает имя
+func (b *PersonBuilder) SetName(name string) Builder {
+    b.person.Name = name
+    return b
+}
+
+// SetAge - устанавливает возраст
+func (b *PersonBuilder) SetAge(age int) Builder {
+    b.person.Age = age
+    return b
+}
+
+// SetAddress - устанавливает адрес
+func (b *PersonBuilder) SetAddress(address string) Builder {
+    b.person.Address = address
+    return b
+}
+
+// Build - завершает построение объекта
+func (b *PersonBuilder) Build() Person {
+    return b.person
+}
+```
+
 ## <a name="repository_pattern"></a>Паттерн репозиторий
 
 То есть репозиторий - это паттерн для того, что бы абстрагировать наш код от места хранения данных.
@@ -67,7 +151,68 @@
   Например, вы можете инкапсулировать что-то внутри класса, сделав его приватным (`private`) и скрыв доступ к этому полю или методу для объектов других классов. Чуть более свободный, защищённый (`protected`) режим видимости сделает это поле или метод доступным в подклассах.
 
 - **Наследование** - это возможность создания новых классов на основе существующих.
+
 - **Полиморфизм** - это свойство системы использовать объекты с одинаковым интерфейсом без информации о типе и внутренней структуре объекта.
+
+---
+
+Любят вместе с ООП спрашивать отличия **композиции** от **агрегации**. Поясняю:
+
+- **Композиция**: объект A управляет временем жизни объекта B. Пример: процессор компьютера не может существовать (работать) отдельно от компьютера.
+
+  ```Golang
+  package main
+
+  import "fmt"
+
+  // CPU не может существовать отдельно от Computer
+  type CPU struct {
+    Cores int
+  }
+
+  // Computer включает CPU как часть
+  type Computer struct {
+    Model string
+    CPU   CPU // Композиция, CPU создаётся внутри Computer
+  }
+
+  func main() {
+    computer := Computer{
+      Model: "MacBook",
+      CPU:   CPU{Cores: 8}, // CPU создаётся внутри
+    }
+
+    fmt.Println("Computer model:", computer.Model)
+    fmt.Println("CPU cores:", computer.CPU.Cores)
+  }
+  ```
+
+- **Агрегация**: объект А получает ссылку на объект B. Пример: двигатель автомобиля может существовать (работать) отдельно от автомобиля.
+
+  ```Golang
+  package main
+
+  import "fmt"
+
+  // Engine может существовать отдельно
+  type Engine struct {
+    Power int
+  }
+
+  // Car агрегирует Engine
+  type Car struct {
+    Model  string
+    Engine *Engine
+  }
+
+  func main() {
+    engine := &Engine{Power: 200} // Двигатель существует отдельно
+    car := Car{Model: "Toyota", Engine: engine}
+
+    fmt.Println("Car model:", car.Model)
+    fmt.Println("Engine power:", car.Engine.Power)
+  }
+  ```
 
 ## <a name="solid"></a>SOLID
 
@@ -190,3 +335,9 @@ func main() {
 	http.ListenAndServe(":8080", nil)
 }
 ```
+
+## <a name="di&ioc"></a>Dependency injection (DI) и Inversion of Control (IoC)
+
+**Dependency injection (DI)** представляет механизм, который позволяет сделать компоненты программы слабосвязанными, а всю программу в целом более гибкой, адаптируемой и расширяемой.
+
+**Inversion of Control(IoC)** — принцип при котором управление объектами или частями программы передается контейнеру или фреймворку. Вместо ручного внедрения зависимостей, фреймворк забирает ответственность за это посредством IoC-контейнера.
