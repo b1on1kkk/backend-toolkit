@@ -576,6 +576,91 @@ done
 
 - `Rune` представляет тип `int32` для работы с юникод-символами
 
+## <a name="errors"></a>Ошибки
+
+В стандартной библиотеке ошибка — это интерфейс с одним методом, который возвращает строку:
+
+```Golang
+type error interface {
+	Error() string
+}
+```
+
+Этот `error` интерфейс можно крутить и дополнять так, как душе захочется:
+
+```Golang
+type MyError struct{}
+
+func (m *MyError) Error() string {
+	return "boom"
+}
+
+func sayHello() (string, error) {
+	return "", &MyError{}
+}
+
+func main() {
+	s, err := sayHello()
+	if err != nil {
+		fmt.Println("unexpected error: err:", err)
+		os.Exit(1)
+	}
+	fmt.Println("The string:", s)
+}
+```
+
+Или так:
+
+```Golang
+package main
+
+import (
+	"errors"
+	"fmt"
+	"os"
+)
+
+type RequestError struct {
+	StatusCode int
+
+	Err error
+}
+
+func (r *RequestError) Error() string {
+	return fmt.Sprintf("status %d: err %v", r.StatusCode, r.Err)
+}
+
+func doRequest() error {
+	return &RequestError{
+		StatusCode: 503,
+		Err:        errors.New("unavailable"),
+	}
+}
+
+func main() {
+	err := doRequest()
+	if err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
+	fmt.Println("success!")
+}
+```
+
+## <a name="init"></a>Функция init
+
+Функция `init()` выделяет элемент кода, который запускатся до любой другой части вашего пакета. Этот код запускается сразу же после импорта пакета, и его можно использовать при необходимости инициализации приложения в определенном состоянии, например, если для запуска приложения требуется определенная конфигурация или набор ресурсов.
+
+```Golang
+package main
+
+var B int
+
+func init() { B = 2 }
+
+func main() {}
+```
+
 ## <a name="concurrency_patterns"></a>Паттерны многопоточности
 
 ### Future/Promise
