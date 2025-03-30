@@ -90,3 +90,41 @@ func addNums(nums []int) {
 [Разбор слайсов](https://www.youtube.com/watch?v=10LW7NROfOQ).
 
 ---
+
+### Что выведет этот код:
+
+```Golang
+package main
+
+import "fmt"
+
+type MyError {}
+
+func (m *MyError) Error() string {
+	return "boom"
+}
+
+func fail() error {
+	var err *MyError = nil
+	return err
+}
+
+func main() {
+	err := fail()
+	if err == nil {
+		fmt.Println("No error")
+	} else {
+		fmt.Println("Error occured")
+	}
+}
+```
+
+### Ответ:
+
+```Golang
+"Error occured"
+```
+
+### Разбор почему так:
+
+Поскольку в Go тип `interface` имеет под капотом структуру с двумя значениями: указатель на значение и указатель на тип, мы присвоили переменной `err` какой то тип, в данном случае указатель на структуру `MyError` => он уже не nil и поэтому условие выполняется: переменная не пустая.
