@@ -12,24 +12,24 @@
 
 6. <a href="../answers/go.md#concurrency">Конкурентность</a><br>
 
-7. <a href="../answers/go.md#scheduler">Планировщик в Go</a><br>
+7. <a href="../answers/go.md#con_vs_parall_multi">Конкурентное, параллельное, многопоточное и асинхронное исполнение</a><br>
 
-8. <a href="../answers/go.md#make_new">make и new</a><br>
+8. <a href="../answers/go.md#scheduler">Планировщик в Go</a><br>
 
-9. <a href="../answers/go.md#interface">Интерфейсы (interface)</a><br>
+9. <a href="../answers/go.md#make_new">make и new</a><br>
 
-10. <a href="../answers/go.md#context">Контекст (Context)</a><br>
+10. <a href="../answers/go.md#interface">Интерфейсы (interface)</a><br>
 
-11. <a href="../answers/go.md#iota">iota</a><br>
+11. <a href="../answers/go.md#context">Контекст (Context)</a><br>
 
-12. <a href="../answers/go.md#defer">defer</a><br>
+12. <a href="../answers/go.md#iota">iota</a><br>
 
-13. <a href="../answers/go.md#byte_vs_rune">byte vs rune</a><br>
+13. <a href="../answers/go.md#defer">defer</a><br>
 
-14. <a href="../answers/go.md#errors">Ошибки</a><br>
+14. <a href="../answers/go.md#byte_vs_rune">byte vs rune</a><br>
 
-15. <a href="../answers/go.md#init">Функция init</a><br>
+15. <a href="../answers/go.md#errors">Ошибки</a><br>
 
-16. <a href="../answers/go.md#concurrency_patterns">Паттерны многопоточности</a><br>
+16. <a href="../answers/go.md#init">Функция init</a><br>
 
-17. <a href="../answers/go.md#con_vs_parall_multi">Конкурентное, параллельное, многопоточное и асинхронное исполнение</a><br>
+17. <a href="../answers/go.md#concurrency_patterns">Паттерны многопоточности</a><br>
