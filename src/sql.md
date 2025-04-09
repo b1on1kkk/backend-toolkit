@@ -39,3 +39,5 @@
 19. <a href="../answers/sql.md#pgbouncer_in_prisma">Prisma и PgBouncer</a><br>
 
 20. <a href="../answers/sql.md#n+1">Проблема N+1 при работе с ORM</a><br>
+
+21. <a href="../answers/sql.md#constraints">Ограничения (constraints) в SQL</a><br>

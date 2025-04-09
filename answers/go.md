@@ -753,7 +753,7 @@ func main() {}
 
 ---
 
-Примеры кода можно посмотреть [ТУТЬ](https://habr.com/ru/articles/852556/)
+**Примеры кода можно посмотреть [ТУТЬ](https://habr.com/ru/articles/852556/)**
 
 ## <a name="comp_with_nil"></a>Типы данных сравнимые с nil
 

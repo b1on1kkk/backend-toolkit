@@ -288,3 +288,94 @@ SELECT * FROM Reservations
         SELECT id FROM Rooms ORDER BY price DESC LIMIT 1
     )
 ```
+
+## <a name="constraints"></a>Ограничения (constraints) в SQL
+
+**Ограничение (constraints)** — это ограничение типа значений, которое накладывается на один или несколько столбцов таблицы.
+
+В SQL существуют ограничения:
+
+### NOT NULL
+
+**NOT NULL** — Ограничение `NOT NULL` указывает, что столбец не может принимать значения `NULL`
+
+```SQL
+CREATE TABLE persons (
+  id INT NOT NULL,
+  name VARCHAR(30) NOT NULL,
+  birth_date DATE,
+  phone VARCHAR(15) NOT NULL
+);
+```
+
+### PRIMARY KEY
+
+**PRIMARY KEY** — Ограничение `PRIMARY KEY` определяет столбец или набор столбцов, значения которых однозначно идентифицируют строку в таблице. То есть никакие две строки в таблице не могут иметь одинаковое значение первичного ключа. Также нельзя вводить значение `NULL` в столбец первичного ключа.
+
+```SQL
+CREATE TABLE persons (
+  id INT NOT NULL PRIMARY KEY,
+  name VARCHAR(30) NOT NULL,
+  birth_date DATE,
+  phone VARCHAR(15) NOT NULL
+);
+```
+
+### UNIQUE
+
+**UNIQUE** — Ограничение `UNIQUE` означает, что в указанных столбцах обязательно должны быть уникальные значения.
+
+```SQL
+CREATE TABLE persons (
+  id INT NOT NULL PRIMARY KEY,
+  name VARCHAR(30) NOT NULL,
+  birth_date DATE,
+  phone VARCHAR(15) NOT NULL UNIQUE
+);
+```
+
+### DEFAULT
+
+**DEFAULT** — Ограничение `DEFAULT` определяет значение по умолчанию для столбцов.
+
+```SQL
+CREATE TABLE persons (
+  id INT NOT NULL PRIMARY KEY,
+  name VARCHAR(30) NOT NULL,
+  birth_date DATE,
+  phone VARCHAR(15) NOT NULL UNIQUE,
+  country VARCHAR(30) NOT NULL DEFAULT 'Россия'
+);
+```
+
+### FOREIGN KEY
+
+**FOREIGN KEY** — Внешний ключ (`FOREIGN KEY`) — это столбец или комбинация столбцов, которые используются для установления и обеспечения взаимосвязи между данными в двух таблицах.
+
+```SQL
+CREATE TABLE employees (
+    emp_id INT NOT NULL PRIMARY KEY,
+    emp_name VARCHAR(55) NOT NULL,
+    hire_date DATE NOT NULL,
+    salary INT,
+    dept_id INT,
+    FOREIGN KEY (dept_id) REFERENCES departments(dept_id)
+);
+```
+
+![relation_example](../pictures/relation_ex.png)
+
+### CHECK
+
+**CHECK** — Ограничение `CHECK` используется для ограничения значений, которые могут быть помещены в столбец.
+
+```SQL
+CREATE TABLE employees (
+    emp_id INT NOT NULL PRIMARY KEY,
+    emp_name VARCHAR(55) NOT NULL,
+    hire_date DATE NOT NULL,
+    salary INT NOT NULL CHECK (salary >= 3000 AND salary <= 10000),
+    dept_id INT,
+    FOREIGN KEY (dept_id) REFERENCES departments(dept_id)
+);
+```
