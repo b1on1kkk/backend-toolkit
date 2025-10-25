@@ -4,9 +4,9 @@
 
 2. <a href="../answers/go.md#array">Массивы</a><br>
 
-3. <a href="../answers/go.md#slice">Слайсы</a><br>
+3. <a href="../answers/go.md#slice">Слайсы (Срезы, Slices)</a><br>
 
-4. <a href="../answers/go.md#maps">Map (Not actual since 1.24)</a><br>
+4. <a href="../answers/go.md#maps">Map (Deprecated since 1.24)</a><br>
 
 5. <a href="../answers/go.md#maps_new">Map (Actual)</a><br>
 
