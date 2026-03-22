@@ -24,6 +24,8 @@
 
 12. <a href="../answers/advanced.md#rest_vs_graphql">REST vs GraphQL</a><br>
 
-13. <a href="../answers/advanced.md#unix-timestamp">Что такое Unix-timestamp, какие проблемы решает, плюсы и минусы?</a><br>
+13. <a href="../answers/advanced.md#stack_and_heap">Стек и куча для чайников</a><br>
 
-14. <a href="../answers/advanced.md#ci_cd_pipeline">CI/CD Pipeline</a><br>
+14. <a href="../answers/advanced.md#unix-timestamp">Что такое Unix-timestamp, какие проблемы решает, плюсы и минусы?</a><br>
+
+15. <a href="../answers/advanced.md#ci_cd_pipeline">CI/CD Pipeline</a><br>
