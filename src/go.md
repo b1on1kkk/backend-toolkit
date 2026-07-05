@@ -2,40 +2,40 @@
 
 1. <a href="../answers/go.md#strings">Строки</a><br>
 
-2. <a href="../answers/go.md#array">Массивы</a><br>
+2. <a href="../answers/go.md#byte_vs_rune">byte vs rune</a><br>
 
-3. <a href="../answers/go.md#slice">Слайсы (Срезы, Slices)</a><br>
+3. <a href="../answers/go.md#array">Массивы</a><br>
 
-4. <a href="../answers/go.md#for">Цикл for</a><br>
+4. <a href="../answers/go.md#slice">Слайсы (Срезы, Slices)</a><br>
 
-5. <a href="../answers/go.md#maps">Map (Deprecated since 1.24)</a><br>
+5. <a href="../answers/go.md#for">Цикл for</a><br>
 
-6. <a href="../answers/go.md#maps_new">Map (Actual)</a><br>
+6. <a href="../answers/go.md#maps">Map (Deprecated since 1.24)</a><br>
 
-7. <a href="../answers/go.md#escape_analysis">Как работает escape analysis и куда уходят переменные?</a><br> 
+7. <a href="../answers/go.md#maps_new">Map (Actual)</a><br>
 
-8. <a href="../answers/go.md#concurrency">Конкурентность</a><br>
+8. <a href="../answers/go.md#escape_analysis">Как работает escape analysis и куда уходят переменные?</a><br> 
 
-9. <a href="../answers/go.md#con_vs_parall_multi">Конкурентное, параллельное, многопоточное и асинхронное исполнение</a><br>
+9. <a href="../answers/go.md#concurrency">Конкурентность</a><br>
 
-10. <a href="../answers/go.md#concurrency_patterns">Паттерны многопоточности</a><br>
+10. <a href="../answers/go.md#con_vs_parall_multi">Конкурентное, параллельное, многопоточное и асинхронное исполнение</a><br>
 
-11. <a href="../answers/go.md#scheduler">Планировщик в Go</a><br>
+11. <a href="../answers/go.md#concurrency_patterns">Паттерны многопоточности</a><br>
 
-12. <a href="../answers/go.md#make_new">make и new</a><br>
+12. <a href="../answers/go.md#scheduler">Планировщик в Go</a><br>
 
-13. <a href="../answers/go.md#interface">Интерфейсы (interface)</a><br>
+13. <a href="../answers/go.md#make_new">make и new</a><br>
 
-14. <a href="../answers/go.md#context">Контекст (Context)</a><br>
+14. <a href="../answers/go.md#interface">Интерфейсы (interface)</a><br>
 
-15. <a href="../answers/go.md#errors">Ошибки</a><br>
+15. <a href="../answers/go.md#context">Контекст (Context)</a><br>
 
-16. <a href="../answers/go.md#init">Функция init</a><br>
+16. <a href="../answers/go.md#errors">Ошибки</a><br>
 
-17. <a href="../answers/go.md#iota">iota</a><br>
+17. <a href="../answers/go.md#init">Функция init</a><br>
 
-18. <a href="../answers/go.md#defer">defer</a><br>
+18. <a href="../answers/go.md#iota">iota</a><br>
 
-19. <a href="../answers/go.md#byte_vs_rune">byte vs rune</a><br>
+19. <a href="../answers/go.md#defer">defer</a><br>
 
 20. <a href="../answers/go.md#comp_with_nil">Типы данных сравнимые с nil</a><br>
