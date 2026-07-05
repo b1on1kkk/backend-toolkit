@@ -8,7 +8,7 @@
 
 4. <a href="../answers/go.md#slice">Слайсы (Срезы, Slices)</a><br>
 
-5. <a href="../answers/go.md#maps_new">Map (Actual)</a><br>
+5. <a href="../answers/go.md#maps_new">Map</a><br>
 
 6. ~~<a href="../answers/go.md#maps">Map (Deprecated since 1.24)</a><br>~~
 
